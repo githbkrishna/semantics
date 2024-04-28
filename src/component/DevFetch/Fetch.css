@@ -1,0 +1,59 @@
+/* mainfetchcomp starts */
+
+.mainfetchcomp {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.mainfetchcomp > h1 {
+  margin: 5px 0;
+}
+
+.mainfetchcomp .fetchgrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-template-rows: 400px 400px;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+.fetchgrid .gridcont {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.fetchgrid .gridcont:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.fetchgrid .gridcont div {
+  width: 80%;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.fetchgrid .gridcont div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: all 2s ease-in-out;
+}
+
+.gridcont div img:hover {
+  transform: scale(1.2);
+}
+
+.fetchgrid .gridcont p {
+  margin-bottom: 5px;
+}
+
+.fetchgrid .gridcont p span {
+  font-weight: bold;
+}
+
+/* mainfetchcomp ends */
